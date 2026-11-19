@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #1a1a1a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.table-container {
+    width: 100%;
+    max-width: 1100px;
+    overflow-x: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 14px;
+}
+
+th, td {
+    border: 1px solid #333333;
+    padding: 10px 8px;
+}
+
+/* Cabeceras inspiradas en el diseño de la tabla */
+.header-main {
+    background-color: #3b9ab2;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.sub-header-yellow {
+    background-color: #f2b705;
+    color: #000000;
+    font-weight: bold;
+}
+
+.hora-col {
+    background-color: #6bb5c9;
+    font-weight: bold;
+    width: 110px;
+}
+
+/* Colores por días / bloques */
+.dilluns { background-color: #f564d8; font-weight: bold; }
+.dimarts { background-color: #c2b2d6; font-weight: bold; }
+.dimecres { background-color: #e62e2e; color: white; font-weight: bold; }
+.dijous { background-color: #92d050; font-weight: bold; }
+.divendres { background-color: #ffff00; font-weight: bold; }
+.cap-setmana { background-color: #f4a460; font-weight: bold; }
+
+/* Estilos de celdas de actividades */
+.classe { background-color: #e3f2fd; }
+.estudi { background-color: #fff9c4; }
+.esport { background-color: #e8f5e9; }
+.descans { background-color: #eeeeee; font-style: italic; color: #555; }
+.oci { background-color: #fce4ec; }
+
+/* Bloque inferior de resumen / recursos */
+.footer-label {
+    background-color: #3b9ab2;
+    font-weight: bold;
+    text-align: left;
+}
+
+.footer-content {
+    background-color: #ffffff;
+    text-align: left;
+}
